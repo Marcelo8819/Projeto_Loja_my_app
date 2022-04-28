@@ -2,8 +2,9 @@ import React from "react";
 import './Home.view.css'
 
 function HomeView () {
+    const name= 'Mundo'
     return <div className="HomeView">
-        Olá, Mundo 2
+        Olá, {name}
     </div>
 }
 
