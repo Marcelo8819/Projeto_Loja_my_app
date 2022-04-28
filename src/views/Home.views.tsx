@@ -4,7 +4,7 @@ import './Home.view.css'
 function HomeView () {
     const name= 'Mundo'
     return <div className="HomeView">
-        Olá, {name}
+        Ola, {name}
     </div>
 }
 
