@@ -1,10 +1,12 @@
 import React from "react";
 import './Home.view.css'
+import List from '../components/List'
 
 function HomeView () {
-    const name= 'Mundo'
+    const names= ['Marcelo', 'Henrique','Guilherme']
     return <div className="HomeView">
-        Ola, {name}
+            <List items={names} />
+         
     </div>
 }
 
